@@ -24,7 +24,7 @@
                                     <constraint firstAttribute="height" constant="50" id="rH3-fC-vIT"/>
                                 </constraints>
                             </view>
-                            <stackView opaque="NO" contentMode="center" distribution="fillEqually" alignment="center" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="Ux5-66-ARb">
+                            <stackView opaque="NO" contentMode="center" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="Ux5-66-ARb">
                                 <rect key="frame" x="71.666666666666686" y="376" width="250" height="100"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QI4-rG-anw">
