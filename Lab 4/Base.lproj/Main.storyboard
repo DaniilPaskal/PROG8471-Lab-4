@@ -16,8 +16,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="center" ambiguous="YES" distribution="fillEqually" alignment="center" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="Ux5-66-ARb">
-                                <rect key="frame" x="71.666666666666686" y="429" width="250" height="100"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YJT-Nm-Usb">
+                                <rect key="frame" x="171.66666666666666" y="159" width="50" height="50"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="RcR-eq-WXs"/>
+                                    <constraint firstAttribute="height" constant="50" id="rH3-fC-vIT"/>
+                                </constraints>
+                            </view>
+                            <stackView opaque="NO" contentMode="center" distribution="fillEqually" alignment="center" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="Ux5-66-ARb">
+                                <rect key="frame" x="71.666666666666686" y="376" width="250" height="100"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QI4-rG-anw">
                                         <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
@@ -36,21 +44,19 @@
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="Ivp-0O-8K6" firstAttribute="leading" secondItem="QI4-rG-anw" secondAttribute="trailing" constant="50" id="Cjb-cA-VjG"/>
+                                    <constraint firstAttribute="height" constant="100" id="NRY-eP-Hqw"/>
                                     <constraint firstAttribute="width" constant="250" id="sBN-13-IxG"/>
                                 </constraints>
                             </stackView>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YJT-Nm-Usb">
-                                <rect key="frame" x="171" y="152" width="50" height="50"/>
-                                <color key="backgroundColor" systemColor="systemGreenColor"/>
-                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="Ux5-66-ARb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="KGR-Ug-DTw"/>
-                            <constraint firstItem="YJT-Nm-Usb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fiX-eM-qmx"/>
-                            <constraint firstItem="Ux5-66-ARb" firstAttribute="top" secondItem="YJT-Nm-Usb" secondAttribute="bottom" constant="200" id="gO4-Y2-jZU"/>
-                            <constraint firstItem="YJT-Nm-Usb" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="iYN-Ob-z43"/>
+                            <constraint firstItem="YJT-Nm-Usb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9eq-93-vrD"/>
+                            <constraint firstItem="Ux5-66-ARb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FPd-jx-pZg"/>
+                            <constraint firstItem="Ux5-66-ARb" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="TUO-Yg-Q8r"/>
+                            <constraint firstItem="YJT-Nm-Usb" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="evZ-fP-zzG"/>
+                            <constraint firstItem="YJT-Nm-Usb" firstAttribute="centerX" secondItem="Ux5-66-ARb" secondAttribute="centerX" id="w4O-wB-8cq"/>
                         </constraints>
                     </view>
                 </viewController>
